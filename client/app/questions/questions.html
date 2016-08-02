@@ -1,0 +1,17 @@
+<div ng-controller="QuestionsProvider">
+    <p>
+        ceci marche 1+2= {{1+2}}.
+    </p>
+    <p>
+        <ol>
+            <li ng-repeat="question in questions">
+                {{ question.text }}
+                <ol type="a">
+                    <li ng-repeat="answer in question.answers">
+                        {{ answer }}
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </p>
+</div>

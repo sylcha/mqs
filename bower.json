@@ -1,0 +1,28 @@
+{
+  "name": "mqs",
+  "homepage": "https://github.com/sylcha/mqs",
+  "authors": [
+    "sylcha <chambon.sylvain@gmail.com>"
+  ],
+  "description": "Math Quizz Source",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.8",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap-social": "^5.0.0",
+    "bootswatch-dist": "united",
+    "angular-resource": "^1.5.8",
+    "MathJax": "^2.6.1"
+  }
+}

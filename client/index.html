@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="mqs">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML File</title>
+        <!-- Styles -->
+        <!-- <link rel="stylesheet" href="assets/libs/bootswatch-dist/css/bootstrap.css"/> -->
+        <link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap-theme.css"/>
+        <link rel="stylesheet" href="assets/libs/font-awesome/css/font-awesome.css"/>
+        <link rel="stylesheet" href="assets/css/styles.css"/>
+
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Lobster+Two:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- MathJax -->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({  extensions: ["tex2jax.js"], jax: ["input/TeX","output/HTML-CSS"], tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]} });
+        </script>
+        <script type="text/javascript" src="assets/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
+    </head>
+    <body>
+        <div ui-view="navbar"></div>
+        <div ui-view="header"></div>
+        <div ui-view="features"></div>
+        <div ui-view="footer"></div>
+
+
+
+        <!-- AngularJS -->
+        <script src="assets/libs/angular/angular.js"></script>
+        <script src="assets/libs/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="assets/libs/angular-resource/angular-resource.js"></script>
+
+        <!-- Boostrap Scripts -->
+        <script src="assets/libs/jquery/dist/jquery.js"></script>
+        <script src="assets/libs/bootstrap/dist/js/bootstrap.js"></script>
+
+        <!-- My Modules -->
+        <script src="app/app.module.js"></script>
+        <script src="app/questions/questions.module.js"></script>
+        <script src="app/core/router/router.module.js"></script>
+    </body>
+</html>
