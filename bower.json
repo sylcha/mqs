@@ -23,6 +23,7 @@
     "bootstrap-social": "^5.0.0",
     "bootswatch-dist": "united",
     "angular-resource": "^1.5.8",
-    "MathJax": "^2.6.1"
+    "MathJax": "^2.6.1",
+    "bootstrap-sass": "^3.3.7"
   }
 }

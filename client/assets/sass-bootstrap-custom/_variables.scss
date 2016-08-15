@@ -1,0 +1,21 @@
+// Colors
+$clearColor: #ECF0F1;
+$darkColor: #2C3E50;
+$focusColor: #E74C3C;
+$blueColor: #2980B9;
+$lightBlueColor: #3498DB;
+
+
+//===================================================================================
+//      BOOTSTRAP CUSTOM
+//===================================================================================
+$gray-base: $darkColor;
+$brand-primary: darken($blueColor, 6.5%);
+$body-bg: $clearColor;
+$headings-font-family: "Lobster Two", cursive;
+$headings-color: $focusColor;
+
+// jumbotron
+$jumbotron-color:                $clearColor;
+$jumbotron-bg:                   $blueColor;
+// $jumbotron-heading-color:        inherit !default;

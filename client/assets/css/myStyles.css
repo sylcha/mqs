@@ -1,0 +1,40 @@
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  height: 100vh; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1.home-title {
+    font-size: 60px; } }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1.home-title {
+    font-size: 100px;
+    padding-top: 100px; } }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1.home-title {
+    font-size: 150px;
+    padding-top: 250px; } }
+
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #3498DB;
+  color: #ECF0F1; }
+
+.row-footer-content {
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.row-header-content {
+  margin: 0px auto;
+  padding: 60px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  min-height: 100vh; }

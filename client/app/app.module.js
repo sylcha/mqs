@@ -5,5 +5,4 @@
             'mqs.questions',
             'mqs.router'
         ]);
-
 })();
