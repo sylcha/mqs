@@ -20,6 +20,9 @@
                         },
                         'navbar': {
                             templateUrl: 'app/shared/navbar/navbar.html'
+                        },
+                        'loginForm': {
+                            templateUrl: 'app/login/login-form.html'
                         }
                     }
                 })
